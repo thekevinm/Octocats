@@ -1,0 +1,70 @@
+img {
+	width:400px;
+	padding:10px;
+	border:1px solid silver;
+}
+
+.authors {
+	display:flex;
+	
+}
+
+.authors img {
+	flex-flow: row;
+	border:none;
+	width:30px;
+	height:30px;
+	margin:5px;
+	margin-top: -13px;
+} 
+
+.image-number {
+	color:silver;
+	margin-top: 20px;
+}
+
+span {
+	color:grey;
+	font-family: courier;
+}
+
+a {
+	flex-direction: row;
+	color:black;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+ul {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-evenly;
+}
+
+
+.octocat {
+	position: relative;
+}
+
+.octocat:after {
+	content:"";
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 15px 7.5px 0 7.5px;
+	border-color: silver transparent transparent transparent;
+	position:absolute;
+	bottom:56px;
+	right:63px;
+}
+
+.image-footer {
+	display:flex;
+	justify-content: space-evenly;
+}
+
+.image-caption {
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 20px;
+}
